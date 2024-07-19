@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(58, 58, 101);
+}
+
+.todo-task-input{
+    border: none;
+    background-color: transparent;
+}
+
+.search-bar{
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    border: 1px solid #000;
+    margin: .5em;
+    background-color: #27274a;
+}
+
+.btn-primary{
+    margin: 6px 0px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #5692ee;
+    border: none;
+}
+
+.heading{
+    font-size: 2vmax;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.task{
+    height: 50px;
+    background-color: #ffffff17;
+    border-radius: 10px;
+    margin: .5em;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
